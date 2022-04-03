@@ -74,6 +74,8 @@ var displayIssues = function(issues) {
 
     // append to container
     issueEl.appendChild(typeEl);
+
+    // append to the dom
     issueContainerEl.appendChild(issueEl);
   }
 };
